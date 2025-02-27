@@ -10,7 +10,7 @@ import Css from './page/Css';
 
 function App() {
   return (
-    <BrowserRouter basename='/react_tutorial'>
+    <BrowserRouter>
      <header>
       <NavLink to ="/">HOME</NavLink>
       <NavLink to="/css">CSS</NavLink>
