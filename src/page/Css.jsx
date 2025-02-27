@@ -11,6 +11,8 @@ function Css() {
 
         <dt>MODULE</dt>
         <dd className={s.test}>1. 파일명 규칙 => 파일명.module.css </dd>
+        <dd className={s.test}>2. 파일가져오기 (import 별칭 from '파일명.module.scss'); </dd>
+        <dd className={s.test}>3. 적용 (className = 별칭.클래스명) </dd>
     </dl>
   )
 }
